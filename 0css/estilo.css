@@ -1,3 +1,8 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .button1
 {
     background-color: #000000;
@@ -14,61 +19,186 @@
 {
     font-size: 20px;
 }
-h1 
+@media screen and (max-width: 600px)
 {
-    color: rgb(241, 241, 13);
-    font-size: 24pt;
+        h1 
+    {
+        color: rgb(241, 241, 13);
+        font-size: 60px;
+    }
+    h2 
+    {
+        font-size: 18pt;
+    }
+    h3 
+    {
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body
+    {
+        background-color: yellow;
+        background-image: url("../0img/background.jpg");
+        background-position: center;
+    }
+    div#titulo
+    {
+        width: 100%;
+        height: 120px;
+        background-color: rgba(169, 169, 169, 0.5);
+        border-color: aqua;
+        border-width: 20pt;
+    }
+      
+    div#meio
+    {
+        width: 100%;
+        height: 350pt;
+        background-color: rgba(0, 10, 169, 0.5);
+    }
+    div#menu
+    {
+        text-align: center;
+        width: 20%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.5);
+        margin-top: 0pt;
+        
+    }
+    div#show
+    {
+        float: right;
+        width: 80%;
+        height: 350pt;
+        background-color: rgba(0, 50, 100, 0.5);
+        font-size: 3pt;
+    }
+    div#informacoes
+    {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.5);
+    }
 }
-h2 
+@media screen and (max-width: 900px) and (min-width: 600px)
 {
-    font-size: 18pt;
+    h1 
+    {
+        color: rgb(241, 241, 13);
+        font-size: 80px;
+    }
+    h2 
+    {
+        font-size: 18pt;
+    }
+    h3 
+    {
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body
+    {
+        background-color: blue;
+       /* background-image: url("background.jpg");*/
+        background-position: center;
+    }
+    div#titulo
+    {
+        width: 100%;
+        height: 120px;
+        background-color: rgba(169, 169, 169, 0.5);
+        border-color: aqua;
+        border-width: 20pt;
+    }
+      
+    div#meio
+    {
+        width: 100%;
+        height: 350pt;
+        background-color: rgba(0, 10, 169, 0.5);
+    }
+    div#menu
+    {
+        text-align: center;
+        width: 20%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.5);
+        margin-top: 0pt;
+        
+    }
+    div#show
+    {
+        float: right;
+        width: 80%;
+        height: 350pt;
+        background-color: rgba(0, 50, 100, 0.5);
+        font-size: 3pt;
+    }
+    div#informacoes
+    {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.5);
+    }
 }
-h3 
+@media screen and (min-width: 900px)
 {
-    font-size: 13pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body
-{
-    background-image: url("background.jpg");
-    background-color: yellow;
-    background-position: center;
-}
-   div#titulo
-{
-    width: 100%;
-    height: 120px;
-    background-color: rgba(169, 169, 169, 0.5);
-border-color: aqua;
-border-width: 20pt;
-}
-  
-div#meio
-{
-    width: 100%;
-    height: 350pt;
-    background-color: rgba(0, 10, 169, 0.5);
-}
-div#menu
-{
-    text-align: center;
-    width: 20%;
-    height: 100%;
-    background-color: rgba(169, 169, 169, 0.5);
-    margin-top: 0pt;
-    
-}
-div#show
-{
-    float: right;
-    width: 80%;
-    height: 350pt;
-    background-color: rgba(0, 50, 100, 0.5);
-    font-size: 3pt;
-}
-div#informacoes
-{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(169, 169, 169, 0.5);
+    h1 
+    {
+        color: rgb(241, 241, 13);
+        font-size: 100px;
+    }
+    h2 
+    {
+        font-size: 18pt;
+    }
+    h3 
+    {
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body
+    {
+        background-color: red;
+      /*  background-image: url("background.jpg");*/
+        background-position: center;
+    }
+    div#titulo
+    {
+        width: 100%;
+        height: 120px;
+        background-color: rgba(169, 169, 169, 0.5);
+        border-color: aqua;
+        border-width: 20pt;
+    }
+      
+    div#meio
+    {
+        width: 100%;
+        height: 350pt;
+        background-color: rgba(0, 10, 169, 0.5);
+    }
+    div#menu
+    {
+        text-align: center;
+        width: 20%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.5);
+        margin-top: 0pt;
+        
+    }
+    div#show
+    {
+        float: right;
+        width: 80%;
+        height: 350pt;
+        background-color: rgba(0, 50, 100, 0.5);
+        font-size: 3pt;
+    }
+    div#informacoes
+    {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(169, 169, 169, 0.5);
+    }
 }
